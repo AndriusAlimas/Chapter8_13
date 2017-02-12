@@ -13,10 +13,16 @@
 	<%@ include file="Header.jsp"%>
 	<br>
 	<em>We can help.</em><hr>
+	<!-- we use implicit el object to get context param value -->
+	Contact us at: ${initParam.mainEmail}
 </body>
 <br><br>
 	 <h1>Rolling a dice... </h1><br>  <img src="images/dice.png"> 
 	
 	${blabla:ManoMetodas()}
 	<br><hr>
+	<!-- We put here a footer, this time we use standart action
+	directive has file , standart action has page:-->
+	<jsp:include page="Footer.jsp" />
+	
 </html>

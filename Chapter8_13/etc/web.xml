@@ -12,4 +12,15 @@
   		<scripting-invalid>true</scripting-invalid>
   	</jsp-property-group>
   </jsp-config>
+  
+  <context-param>
+  	<param-name>admin</param-name>
+  	<param-value>Andrius Alimas</param-value>
+  </context-param>
+  
+  <context-param>
+    <param-name>admin_email</param-name>
+    <param-value>andriusjavait@gmail.com</param-value>
+  </context-param>
+  
 </web-app>
